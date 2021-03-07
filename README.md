@@ -55,15 +55,15 @@ Simulación de un sistema solar con figuras 3D y texturas utilizando imágenes.
 Pequeña aplicación para convertir una figura en 2D en 3D proyectando sus vértices a través del eje z consiguiendo así darle profundidad generando una figura simétrica.
 Para esto al ejecutar tendremos una primera pantalla dividida por una línea blanca en dos mitades en la que podremos dibujar la figura que queremos proyectar en el lado izquierdo terminando el modo edición al crear un vértice en el lado izquierdo, pudiendo borrar la figura dibujada en cualquier momento pulsando la tecla espacio(imagen_1.0).
 </p>
-<p align="center"><img src="images/planeta.JPG" alt="draw interface" width="400" height="425"></br>imagen_1.0(Pause)</p>
+<p align="center"><img src="images/planeta.JPG" alt="draw interface" width="600" height="425"></br>imagen_1.0(Pause)</p>
 <p align="justify">
 Una vez hacemos clic en la parte izquierda de la primera pantalla del programa se generará la figura en 3D, pudiendo borrarla y volver a la zona de dibujo pulsando la tecla espacio(imagen_2.0).
 </p>
-<p align="center"><img src="images/nave.JPG" alt="figure generated" width="400" height="425"></br>imagen_2.0(Jugando)</p>
+<p align="center"><img src="images/nave.JPG" alt="figure generated" width="600" height="425"></br>imagen_2.0(Jugando)</p>
 <p align="justify">
 Como podemos ver en el gif inferior podemos dibujar haciendo clic en distintos puntos de la zona de dibujo y dejando que esta se una automáticamente. También podemos ver unas cuantas figuras generadas y como con solo pulsar espacio borramos la figura actual y podemos proceder a dibujar otra sin ningún problema(imagen_3.0).
 </p>
-<p align="center"><img src="images/animationSol.gif" alt="draw and generate" width="400" height="425"></br>imagen_3.0(Saque)</p>
+<p align="center"><img src="images/animationSol.gif" alt="draw and generate" width="600" height="425"></br>imagen_3.0(Saque)</p>
 
 ## Trabajo Realizado
 <p align="justify">
