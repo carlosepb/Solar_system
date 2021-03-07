@@ -54,15 +54,15 @@ Simulación de un sistema solar con figuras 3D y texturas utilizando imágenes.
 <p align="justify">
 Aplicación que simula un sistema solar con solo cinco planetas (Mercurio, Venus, La Tierra, Marte y Júpiter) y tres lunas (La Luna, Europa e IO).  Al empezar el programa vemos todos los planetas empezar en la misma posición del eje X pero ya que todos llevan una velocidad de orbita distinta se separarán.
 </p>
-<p align="center"><img src="images/planeta.JPG" alt="draw interface" width="600" height="425"></br>imagen_1.0(Pause)</p>
+<p align="center"><img src="images/planeta.JPG" alt="draw planeta" width="600" height="425"></br>imagen_1.0(Pause)</p>
 <p align="justify">
 A modo de preparación para la siguiente practica se a añadido un cubo el cual podemos desplazar por la interfaz con las flechas del teclado para moverlo por los ejes X e Y, además de poder desplazarlo por el eje Z usando las teclas W (alejar) y S(acercar).(imagen_2.0).
 </p>
-<p align="center"><img src="images/nave.JPG" alt="figure generated" width="600" height="425"></br>imagen_2.0(Jugando)</p>
+<p align="center"><img src="images/nave.JPG" alt="cubo" width="600" height="425"></br>imagen_2.0(Jugando)</p>
 <p align="justify">
 En el gif inferior podemos ver los planetas orbitando a distintas distancias del sol, además de cada cuerpo con su nombre que no varía en su posición ni en su orientación. También cada cuerpo rotando sobre si mismo.(imagen_3.0).
 </p>
-<p align="center"><img src="images/animationSol.gif" alt="draw and generate" width="600" height="425"></br>imagen_3.0(Saque)</p>
+<p align="center"><img src="images/animationSol.gif" alt="rotate" width="600" height="425"></br>imagen_3.0(Saque)</p>
 
 ## Trabajo Realizado
 <p align="justify">
