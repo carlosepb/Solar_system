@@ -66,22 +66,16 @@ En el gif inferior podemos ver los planetas orbitando a distintas distancias del
 
 ## Trabajo Realizado
 <p align="justify">
-En cada una de las pantallas tendremos un mensaje en la parte superior izquierda en la que podemos ver el comando de borrado que consiste únicamente en pulsar la tecla espacio.
+Para el uso de los cuerpos celestes se crea un objeto PShape para almacenar su tamaño y textura, para cada elemento tendremos un ángulo de rotación distinto que permitirá que los planetas tengan una velocidad de orbita diferente.
 </p>
 <p align="justify">
-Para dibujar las líneas que unen los vértices de la pantalla de dibujo se utilizan la variables mousePressed, mouseX y mouseY para saber cuando se interactúa usando el ratón y las coordenada en las que se ha hecho clic, además de si se encuentra en la de finalizar dibujo.
+Para el fondo ser carga una imagen y se posiciona contiguas y se van desplazando a la izquierda para dar la sensación de movimiento.
 </p>
 <p align="justify">
-Se ha creado una pequeña clase con solo dos variables y un constructor para guardar las coordenadas de cada vértice y almacenarlas en un arraylist para el momento de dibujar la figura y rotar los vértices hacerlo con mayor facilidad independientemente del número de estos que haya.
+Para posicionar los elementos por la interfaz se usa el método translade(), y para conseguir las orbitas y que los cuerpos giren el método rotate().
 </p>
 <p align="justify">
-Se utiliza la función translate para mover la figura ya generada por la interfaz a modo de poder visualizarla desde distintos puntos, esta seguirá el puntero del ratón.
-</p>
-<p align="justify">
-Para rotar los vértices se ha creado una función a la que se le pasan el vértice actual y el inmediatamente inferior además del ángulo el cual definirá el número de polígonos que tendrá la figura al rotar(a mayor ángulo mas cuadrada será y menor ángulo mas suavizado será el resultado).
-</p>
-<p align="justify">
-La grabación de gif está disponible pero para una ejecución mas optima se encuentra comentada en el código, en caso de querer usarla descomentar las líneas 20, 21, 80 y 92. Para parar la grabación haremos un clic sobre la pantalla ya que esta se encuentra en un evento de ratón pulsado.
+Como preparación para la siguiente práctica se ha añadido un cubo el cual podremos desplazar por la interfaz haciendo uso de los eventos de tecla pulsada y liberada. 
 </p>
 
 ## Herramientas de Desarrollo
@@ -92,7 +86,7 @@ La grabación de gif está disponible pero para una ejecución mas optima se enc
 ## Empezando
 
 <p align="justify">
-Para modificar la aplicación necesitará instalar el entorno de desarrollo Processing3 y la herramienta GifAnimation si desea generar imagenes en formato ".gif". En caso de que solo quiera ejecutar la versión release no será necesario que instale nada y puede pasar directamente al paso Ejecutar->Release.
+Para modificar la aplicación necesitará instalar el entorno de desarrollo Processing3. En caso de que solo quiera ejecutar la versión release no será necesario que instale nada y puede pasar directamente al paso Ejecutar->Release.
 </p>
 
 ### Prerrequisitos
@@ -107,7 +101,7 @@ Para modificar la aplicación necesitará instalar el entorno de desarrollo Proc
 1. Release.
     * Descomprimir rar.
     * Entrar a la versión correspondiente a nuestro windows.
-    * Lanzar SolidOfRevolution.exe.
+    * Lanzar sistema_solar.exe.
 2. Proyecto.
     * Descomprimir rar.
     * Ejecutar Processin3.
@@ -130,7 +124,7 @@ Autor: Carlos Eduardo Pacichana Bastidas
 
 Email: carlos.eduardo.pacichana@gmail.com  carlos.pacichana101@alu.ulpgc.es
 
-Enlace al proyecto: [https://github.com/carlosepb/Figure2DTo3DUsingSolidOfRevolution](https://github.com/carlosepb/Figure2DTo3DUsingSolidOfRevolution)
+Enlace al proyecto: [https://github.com/carlosepb/Solar_system](https://github.com/carlosepb/Solar_system)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Agradecimientos
@@ -138,3 +132,4 @@ Enlace al proyecto: [https://github.com/carlosepb/Figure2DTo3DUsingSolidOfRevolu
 * [Gif-animation](https://github.com/extrapixel/gif-animation)
 * [Funprogramming](https://funprogramming.org/)
 * [Text](https://processing.org/reference/text_.html)
+* [Texturas](https://pixabay.com/es/images/search/planeta/)
